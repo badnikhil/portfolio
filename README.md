@@ -24,7 +24,7 @@ This is my personal portfolio website v1 built with Flutter - available for mult
 
 ### 🔗 Preview Links:
 
-- 🕸️ [Web Version: https://yl0.me](https://yl0.me)
+- 🕸️ [Web Version: [https://badnikhil.github.io/](https://badnikhil.github.io/)
 
 
 ### Want a short preview?
