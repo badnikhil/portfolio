@@ -14,7 +14,6 @@ const String ksFontFamily = "ShantellSans";
 
 const String ksFlutterDeveloperAnd = "Flutter Developer &";
 const String ksCPEnthusiast = "CP Enthusiast ";
-const String ksAiEnthusiast = "ai enthusiast";
 const String ksTechNerd = "a  tech  nerd";
 const String ksFlutterDev = "flutter  dev";
 const String coffeeAddict = "coffee addict";

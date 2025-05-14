@@ -22,12 +22,10 @@ class _WhoAmIState extends State<WhoAmI> with TickerProviderStateMixin {
   AnimationController? _stickController;
   late Animation<Offset> _earthSlideAnimation;
   late Animation<Offset> _galaxySlideAnimation;
-  Image myPicture = Image.asset(kaShowcaseStyle);
 
   @override
   void initState() {
     super.initState();
-    _precacheImage();
     _stickController = AnimationController(vsync: this, duration: duration2000)
       ..repeat();
     _textController = AnimationController(
@@ -60,11 +58,6 @@ class _WhoAmIState extends State<WhoAmI> with TickerProviderStateMixin {
     );
   }
 
-  void _precacheImage() {
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      precacheImage(myPicture.image, context);
-    });
-  }
 
   @override
   void dispose() {
@@ -137,17 +130,6 @@ class _WhoAmIState extends State<WhoAmI> with TickerProviderStateMixin {
         left: s0,
         right: s0,
         child: <Widget>[
-          Positioned(
-            bottom: s0,
-            left: s0,
-            right: s0,
-            child: AspectRatio(
-              aspectRatio: 12 / 9,
-              child: Image(
-                image: myPicture.image,
-              ),
-            ),
-          ),
           Positioned(
             left: s50,
             top: context.percentHeight(s10),
@@ -227,13 +209,6 @@ class _WhoAmIState extends State<WhoAmI> with TickerProviderStateMixin {
         ].addRow(),
       ),
       <Widget>[
-        AspectRatio(
-          aspectRatio: 1,
-          child: Image(
-            image: myPicture.image,
-            height: context.percentHeight(s50),
-          ),
-        ),
         Positioned(
           left: s0,
           top: context.percentHeight(s32),

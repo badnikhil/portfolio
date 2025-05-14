@@ -208,7 +208,7 @@ class _OverallState extends State<Overall> with TickerProviderStateMixin {
           top: context.percentHeight(s48),
           right: context.percentWidth(s8),
           child: AnimatedStrokeText(
-            text: ksAiEnthusiast.toUpperCase(),
+            text: ksCPEnthusiast.toUpperCase(),
             fontSize: context.adaptive(s24, s70),
             strokeWidth: s1,
             letterSpacing: s10,
