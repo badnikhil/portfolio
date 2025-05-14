@@ -3,8 +3,7 @@
 My Personal Portfolio website made with Flutter 🍃🍒❤️
 
 
-
-![Project Thumbnail](assets/images/thumbnails/portfolio_thumbnail.png)
+![Project Thumbnail](https://github.com/user-attachments/assets/7bbabd7d-84cb-4309-89e9-8e65ff73a16a)
 
 ## 📑 Overview
 
