@@ -14,11 +14,11 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="Ye Lwin Oo" content="My Portfolio website made with Flutter 🍃🍒❤️">
+  <meta name="Portfolio" content="My Portfolio website made with Flutter 🍃🍒❤️">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -27,27 +27,15 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Primary Meta Tags -->
-  <meta name="title" content="Ye Lwin Oo (Mr.)">
-  <meta name="description" content="A passionate 3+ years Flutter developer & AI/ML enthusiast">
+  <meta name="title" content="">
+  <meta name="description" content="A passionate  Flutter developer & CP enthusiast">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://metatags.io/">
-  <meta property="og:title" content="Ye Lwin Oo (Mr.)">
-  <meta property="og:description" content="A passionate 3+ years Flutter developer & AI/ML enthusiast">
-  <meta property="og:image" content="https://media.licdn.com/dms/image/C5603AQGtaHBC5S2pkg/profile-displayphoto-shrink_800_800/0/1642065959696?e=2147483647&v=beta&t=p_EmdclfWrkew8jTLy6DIqr6A4_XSPbZzW4-915FjKchttps://media.licdn.com/dms/image/C5603AQGtaHBC5S2pkg/profile-displayphoto-shrink_800_800/0/1642065959696?e=2147483647&v=beta&t=p_EmdclfWrkew8jTLy6DIqr6A4_XSPbZzW4-915FjKc">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://metatags.io/">
-  <meta property="twitter:title" content="Ye Lwin Oo (Mr.)">
-  <meta property="twitter:description" content="A passionate 3+ years Flutter developer & AI/ML enthusiast">
-  <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
+ 
+ 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="https://media.licdn.com/dms/image/C5603AQGtaHBC5S2pkg/profile-displayphoto-shrink_800_800/0/1642065959696?e=2147483647&v=beta&t=p_EmdclfWrkew8jTLy6DIqr6A4_XSPbZzW4-915FjKc"/>
 
-  <title>yelwinoo</title>
+  <title>Portfolio</title>
   <link rel="manifest" href="manifest.json">
   <script type="application/javascript">
       function openLink(url, target, isAsync=false) {
@@ -59,10 +47,9 @@
         }
       }
     </script>
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = null;
-  </script>
+<script>
+  var serviceWorkerVersion = '{{flutter_service_worker_version}}';
+</script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="https://unpkg.com/canvaskit-wasm@0.37.1/bin/canvaskit.js"></script>
   <link rel="preload" href="https://unpkg.com/canvaskit-wasm@0.37.1/bin/canvaskit.wasm" as="fetch" crossOrigin="anonymous">
@@ -131,8 +118,7 @@
       };
       element.innerHTML = texts[0];
       element.addEventListener('animationiteration', listener, false);
-
-    window.addEventListener('load', function(ev) {
+   window.addEventListener('load', function(ev) {
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
