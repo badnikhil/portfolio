@@ -43,13 +43,8 @@ const List<String> kaTools = [
 
 /// certificates
 const String certificatePath = "/certificates";
-const String kaGraphQLCerti = "$basePath$certificatePath/graphql.jpg";
-const String kaDeepLearningCerti =
-    "$basePath$certificatePath/deep_learning.jpg";
-const String kaPythonCerti =
-    "$basePath$certificatePath/intermediate_python.jpg";
-const String kaJSTCerti = "$basePath$certificatePath/jst_japan_asia.jpg";
-const String kaTMESEKCerti = "$basePath$certificatePath/tmesek.jpg";
+const String kaNvidiaCerti = "$basePath$certificatePath/Nvidia.png";
+const String kaAWSCerti = "$basePath$certificatePath/aws.png";
 
 /// van gogh artworks which are downloaded from https://wikiart.com
 const String vanGoghPath = "/van_gogh";

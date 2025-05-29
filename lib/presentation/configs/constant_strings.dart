@@ -1,5 +1,6 @@
 
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:portfolio/data/model/certificate.dart';
 import 'package:portfolio/data/model/experience.dart';
 import 'package:portfolio/data/model/project_info.dart';
 import 'package:portfolio/data/model/quote.dart';
@@ -236,6 +237,21 @@ final List<SocialMedia> ksSocialMedia = [
     ),
   ),
 ];
+
+final List<Certificate> ksCertificateList = [
+  Certificate(
+    name: "Solutions Architecture Jobs Simulation",
+    image: kaAWSCerti,
+    link: "",
+  ),
+  Certificate(
+    name: "Getting Started with Deep Learning",
+    image: kaNvidiaCerti,
+    link: "",
+  ),
+];
+
+
 
 const String _FLUTTER = 'Flutter';
 const String _DART = 'Dart';

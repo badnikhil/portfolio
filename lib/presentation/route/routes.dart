@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/data/model/showcase_project.dart';
 import 'package:portfolio/presentation/utils/extensions/extensions.dart';
 import 'package:portfolio/presentation/views/about/about_view.dart';
+import 'package:portfolio/presentation/views/certificates/certificates_view.dart';
 import 'package:portfolio/presentation/views/contact_me/contact_me_view.dart';
 import 'package:portfolio/presentation/views/experience/experience_view.dart';
 import 'package:portfolio/presentation/views/home/home_page.dart';
@@ -31,6 +32,9 @@ class RouteGen {
         return _buildRoute(const ExperienceView(), settings: settings);
       case Routes.about:
         return _buildRoute(const AboutView(), settings: settings);
+      
+      case Routes.certificates:
+        return _buildRoute(const CertificatesView(), settings: settings);
       case Routes.contact:
         return _buildRoute(const ContactMeView(), settings: settings);
       default:
